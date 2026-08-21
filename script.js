@@ -1,0 +1,1 @@
+const f=document.getElementById('demoForm');const m=document.getElementById('msg');if(f)f.addEventListener('submit',e=>{e.preventDefault();m.textContent='✓ Demo request submitted (not connected yet).';f.reset()});
